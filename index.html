@@ -9,5 +9,24 @@
 </head>
 <body>
     <div id="container"></div>
+    <button id="newBookBtn">Add a new book</button>
+    <dialog id="newBookDialog"> Please enter details of the new book!
+        <form action="xxxxxxxxx">
+          <label for="title">Title:</label>
+          <input type="text" placeholder="Title" id="title" name="title" value="a">
+          <label for="author">Author:</label>
+          <input type="text" placeholder="Author" id="author" name="author" value="a">
+          <label for="pages">Total pages:</label>
+          <input type="number" placeholder="Pages" id="pages" name="pages" value="1">
+          <label for="read">Read?</label>
+          <select id="read" name="read">
+            <option value="yes">Yes</option>
+            <option value="No">No</option>          
+          </select>
+          
+          
+          <button type="submit" id="submitBtn">Submit</button>
+        </form>
+      </dialog>
 </body>
 </html>
